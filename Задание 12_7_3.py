@@ -29,6 +29,6 @@ for i in range(len(per_cent)):
     deposit.append(dep)
 print('deposit =',deposit)
 max_bank=max(per_cent, key=per_cent.get)
-print('Максимальная сумму можете получить в банке', max_bank, 'Она составит: ',max(deposit), 'руб')
+print('Максимальная сумму можете получить в банке', max_bank, 'Она составит: ','Ваш депозит увеличиться к концу года на',max(deposit), 'руб')
 
   
